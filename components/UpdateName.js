@@ -16,6 +16,7 @@ export default function UpdateName() {
     const updateNameOnPress = () => {
         updatePreviousName(name);
         updateName(updatedName);
+        
     }
 
     return (
@@ -30,7 +31,7 @@ export default function UpdateName() {
                 <Text style = {{margin: 20, marginLeft: 2, fontWeight: 'bold', fontSize: 18}}> {name} </Text>
             </View>
 
-            <TextInput style = {styles.inputText} onChangeText = {updatingName} ></TextInput>
+            <TextInput style = {styles.inputText} onChangeText = {updatingName} placeholder = "Enter a new name."></TextInput>
 
             <Button title = 'Update Name' onPress = {updateNameOnPress}></Button>
         </View>
