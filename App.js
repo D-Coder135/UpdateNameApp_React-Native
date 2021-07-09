@@ -10,7 +10,7 @@ export default function App() {
       <Text style = {styles.paragraph}>
         Update Name Data =>
       </Text>
-      <Text style = {{textAlign: 'center', fontSize: 28, color: 'blue', fontWeight: 'bold'}}>
+      <Text style = {{marginBottom: 20,textAlign: 'center', fontSize: 28, color: 'blue', fontWeight: 'bold'}}>
         Using Functional Component.
       </Text>
 
