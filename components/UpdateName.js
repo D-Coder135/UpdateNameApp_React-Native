@@ -8,12 +8,12 @@ export default function UpdateName() {
     const [name, updateName] = React.useState("");
 
     const updatingName = (newName) => {
-        updatedName = newName;
-   }
+         updatedName = newName;
+    }
 
-   const updateNameOnPress = () => {
-       updateName(updatedName);
-   }
+    const updateNameOnPress = () => {
+        updateName(updatedName);
+    }
 
     return (
         <View style = {styles.container}>
@@ -25,7 +25,7 @@ export default function UpdateName() {
                 <Text style = {{margin: 20, fontSize: 18, fontWeight: 'bold', color: 'green'}}>Updated Name: {name}</Text>
             </View>
 
-            <TextInput style = {styles.inputText} ></TextInput>
+            <TextInput style = {styles.inputText} onChangeText = {updatingName} ></TextInput>
 
             <Button title = 'Update Name'></Button>
         </View>
