@@ -15,6 +15,7 @@ export default function UpdateName() {
                 <Text style = {{margin: 20, fontSize: 18, fontWeight: 'bold', color: 'green'}}>Updated Name: </Text>
             </View>
 
+            <TextInput></TextInput>
 
             <Button title = 'Update Name'></Button>
         </View>
@@ -40,5 +41,8 @@ const styles = StyleSheet.create({
     },
     view: {
         flexDirection: 'row',
-    }
+    },
+    inputText: {
+        backgroundColor: 'white', padding: 15, marginTop: 20, marginBottom: 20, borderRadius: 10, outline: 'none', textAlign: 'center', fontSize: 20
+      },
   });
