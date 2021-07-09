@@ -8,6 +8,10 @@ export default function UpdateName() {
             <Text style = {{color: 'red', fontWeight: 'bold', fontSize: 18}}>Previous Name:</Text>
             </View>
 
+            <View>
+                
+            </View>
+
         </View>
     );
 }
