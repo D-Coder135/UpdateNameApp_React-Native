@@ -6,7 +6,7 @@ import UpdateName from './components/UpdateName';
 export default function App() {
   return(
     <View style = {styles.container}>
-      <Text></Text>
+      <Text style = {styles.paragraph}></Text>
     </View>
   );
 }
