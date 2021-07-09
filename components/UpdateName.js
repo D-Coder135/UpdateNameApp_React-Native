@@ -27,7 +27,7 @@ export default function UpdateName() {
 
             <TextInput style = {styles.inputText} onChangeText = {updatingName} ></TextInput>
 
-            <Button title = 'Update Name'></Button>
+            <Button title = 'Update Name' onPress = {updateNameOnPress}></Button>
         </View>
     );
 }
