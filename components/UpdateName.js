@@ -7,7 +7,7 @@ export default function UpdateName() {
 
     const [name, updateName] = React.useState("");
 
-    const[previousName, updatePreviousName] = React.useState("Not Upadted Yet!")
+    const[previousName, updatePreviousName] = React.useState("Not Updated Yet!")
 
     const updatingName = (newName) => {
          updatedName = newName;
@@ -21,6 +21,7 @@ export default function UpdateName() {
         <View style = {styles.container}>
             <View style = {styles.view}>
             <Text style = {{color: 'red', fontWeight: 'bold', fontSize: 18}}>Previous Name:</Text>
+            <Text style = {{margin: 20, marginLeft: 2, fontWeight: 'bold', fontSize: 18}}> {previousName} </Text>
             </View>
 
             <View style = {styles.view}>
