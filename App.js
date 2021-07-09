@@ -13,7 +13,9 @@ export default function App() {
         Using Functional Component.
       </Text>
 
-      <Card></Card>
+      <Card>
+        <UpdateName />
+      </Card>
     </View>
   );
 }
