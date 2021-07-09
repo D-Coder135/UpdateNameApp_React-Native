@@ -5,6 +5,6 @@ import UpdateName from './components/UpdateName';
 
 export default function App() {
   return(
-    
+    <View></View>
   );
 }
