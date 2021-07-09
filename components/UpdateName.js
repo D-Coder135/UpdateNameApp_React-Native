@@ -15,7 +15,7 @@ export default function UpdateName() {
                 <Text style = {{margin: 20, fontSize: 18, fontWeight: 'bold', color: 'green'}}>Updated Name: </Text>
             </View>
 
-            <TextInput></TextInput>
+            <TextInput style = {styles.inputText}></TextInput>
 
             <Button title = 'Update Name'></Button>
         </View>
