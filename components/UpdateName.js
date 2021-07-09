@@ -22,7 +22,7 @@ export default function UpdateName() {
             </View>
 
             <View style = {styles.view}>
-                <Text style = {{margin: 20, fontSize: 18, fontWeight: 'bold', color: 'green'}}>Updated Name: {name}</Text>
+                <Text style = {{margin: 20, fontSize: 18, fontWeight: 'bold', color: 'green'}}>Updated Name: </Text>
             </View>
 
             <TextInput style = {styles.inputText} onChangeText = {updatingName} ></TextInput>
