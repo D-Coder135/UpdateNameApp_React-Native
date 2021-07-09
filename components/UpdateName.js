@@ -4,7 +4,7 @@ import { Text, View, StyleSheet } from 'react-native';
 export default function UpdateName() {
     return (
         <View style = {styles.container}>
-            <Text style = {styles.paragraph}> Previous Name: </Text>
+            <Text>Previous Name:</Text>
         </View>
     );
 }
