@@ -9,7 +9,7 @@ export default function UpdateName() {
             </View>
 
             <View style = {styles.view}>
-                <Text>Updated Name: </Text>
+                <Text style = {{margin: 20, fontSize: 18, fontWeight: 'bold', color: 'green'}}>Updated Name: </Text>
             </View>
 
         </View>
