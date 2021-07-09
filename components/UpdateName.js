@@ -7,6 +7,10 @@ export default function UpdateName() {
 
     const [name, updateName] = React.useState("");
 
+    const updatingName = (newName) => {
+        updatedName = newName;
+   }
+
     return (
         <View style = {styles.container}>
             <View style = {styles.view}>
