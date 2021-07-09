@@ -6,7 +6,9 @@ import UpdateName from './components/UpdateName';
 export default function App() {
   return(
     <View style = {styles.container}>
-      <Text style = {styles.paragraph}></Text>
+      <Text style = {styles.paragraph}>
+        Update Name Data =>
+      </Text>
     </View>
   );
 }
