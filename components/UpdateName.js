@@ -20,8 +20,8 @@ export default function UpdateName() {
     return (
         <View style = {styles.container}>
             <View style = {styles.view}>
-            <Text style = {{color: 'red', fontWeight: 'bold', fontSize: 18}}>Previous Name:</Text>
-            <Text style = {{margin: 20, marginLeft: 2, fontWeight: 'bold', fontSize: 18}}> {previousName} </Text>
+            <Text style = {{marginHorizontal: 5, color: 'red', fontWeight: 'bold', fontSize: 18}}>Previous Name:</Text>
+            <Text style = {{marginLeft: 2, fontWeight: 'bold', fontSize: 18}}> {previousName} </Text>
             </View>
 
             <View style = {styles.view}>
