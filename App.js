@@ -10,7 +10,7 @@ export default function App() {
         Update Name Data =>
       </Text>
       <Text style = {styles.paragraph}>
-        Update Name Data =>
+        Using Functional Component.
       </Text>
     </View>
   );
