@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Text, View, StyleSheet, Button } from 'react-native';
+import { Text, View, StyleSheet, Button, TextInput } from 'react-native';
 
 export default function UpdateName() {
 
@@ -14,6 +14,7 @@ export default function UpdateName() {
             <View style = {styles.view}>
                 <Text style = {{margin: 20, fontSize: 18, fontWeight: 'bold', color: 'green'}}>Updated Name: </Text>
             </View>
+
 
             <Button title = 'Update Name'></Button>
         </View>
