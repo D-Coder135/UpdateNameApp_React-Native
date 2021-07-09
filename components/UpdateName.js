@@ -11,6 +11,10 @@ export default function UpdateName() {
         updatedName = newName;
    }
 
+   const updateNameOnPress = () => {
+       updateName(updatedName);
+   }
+
     return (
         <View style = {styles.container}>
             <View style = {styles.view}>
