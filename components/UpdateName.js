@@ -4,7 +4,7 @@ import { Text, View, StyleSheet } from 'react-native';
 export default function UpdateName() {
     return (
         <View style = {styles.container}>
-
+            <Text></Text>
         </View>
     );
 }
