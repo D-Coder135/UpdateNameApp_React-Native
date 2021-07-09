@@ -5,7 +5,7 @@ export default function UpdateName() {
 
    var updatedName = ""
 
-    const [name, updateName] = React.useState("");
+    const [name, updateName] = React.useState("Devansh");
 
     const updatingName = (newName) => {
          updatedName = newName;
@@ -22,8 +22,8 @@ export default function UpdateName() {
             </View>
 
             <View style = {styles.view}>
-                <Text style = {{margin: 20, fontSize: 18, fontWeight: 'bold', color: 'green'}}>Updated Name: </Text>
-                <Text> {name} </Text>
+                <Text style = {{marginTop: 20, fontSize: 18, fontWeight: 'bold', color: 'green'}}>Updated Name: </Text>
+                <Text style = {{margin: 20, marginLeft: 2, fontWeight: 'bold', fontSize: 18}}> {name} </Text>
             </View>
 
             <TextInput style = {styles.inputText} onChangeText = {updatingName} ></TextInput>
