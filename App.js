@@ -12,6 +12,8 @@ export default function App() {
       <Text style = {styles.paragraph}>
         Using Functional Component.
       </Text>
+
+      <Card></Card>
     </View>
   );
 }
