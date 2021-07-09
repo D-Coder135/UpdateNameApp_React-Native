@@ -43,6 +43,6 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
     },
     inputText: {
-        backgroundColor: 'white', padding: 15, marginTop: 20, marginBottom: 20, borderRadius: 10, outline: 'none', textAlign: 'center', fontSize: 20
+        borderWidth: 1.5, backgroundColor: 'white', padding: 15, marginTop: 20, marginBottom: 20, borderRadius: 10, textAlign: 'center', fontSize: 20
       },
   });
