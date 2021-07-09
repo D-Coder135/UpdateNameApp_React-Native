@@ -4,7 +4,7 @@ import { Text, View, StyleSheet } from 'react-native';
 export default function UpdateName() {
     return (
         <View style = {styles.container}>
-            <View style = {{flexDirection: 'row'}}>
+            <View style = {styles.view}>
             <Text style = {{color: 'red', fontWeight: 'bold', fontSize: 18}}>Previous Name:</Text>
             </View>
 
