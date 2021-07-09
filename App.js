@@ -9,6 +9,9 @@ export default function App() {
       <Text style = {styles.paragraph}>
         Update Name Data =>
       </Text>
+      <Text style = {styles.paragraph}>
+        Update Name Data =>
+      </Text>
     </View>
   );
 }
