@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+import { Text, View, StyleSheet, Button } from 'react-native';
 
 export default function UpdateName() {
     return (
@@ -12,6 +12,7 @@ export default function UpdateName() {
                 <Text style = {{margin: 20, fontSize: 18, fontWeight: 'bold', color: 'green'}}>Updated Name: </Text>
             </View>
 
+            
         </View>
     );
 }
