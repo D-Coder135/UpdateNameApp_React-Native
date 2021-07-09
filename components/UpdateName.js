@@ -2,6 +2,9 @@ import * as React from 'react';
 import { Text, View, StyleSheet, Button } from 'react-native';
 
 export default function UpdateName() {
+
+    const [name, updateName] = React.useState("");
+
     return (
         <View style = {styles.container}>
             <View style = {styles.view}>
