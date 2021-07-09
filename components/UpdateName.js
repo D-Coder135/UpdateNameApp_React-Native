@@ -7,6 +7,7 @@ export default function UpdateName() {
             <View style = {{flexDirection: 'row'}}>
             <Text style = {{color: 'red', fontWeight: 'bold', fontSize: 18}}>Previous Name:</Text>
             </View>
+
         </View>
     );
 }
@@ -27,5 +28,8 @@ const styles = StyleSheet.create({
     logo: {
       height: 128,
       width: 128,
+    },
+    view: {
+        flexDirection: 'row',
     }
   });
