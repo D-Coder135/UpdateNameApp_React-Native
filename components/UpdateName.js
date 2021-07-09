@@ -5,7 +5,7 @@ export default function UpdateName() {
 
    var updatedName = ""
 
-    const [name, updateName] = React.useState("");
+    const [name, updateName] = React.useState("Devansh");
 
     const[previousName, updatePreviousName] = React.useState("Not Updated Yet!")
 
