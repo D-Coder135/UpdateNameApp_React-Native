@@ -16,7 +16,6 @@ export default function UpdateName() {
     const updateNameOnPress = () => {
         updatePreviousName(name);
         updateName(updatedName);
-        
     }
 
     return (
