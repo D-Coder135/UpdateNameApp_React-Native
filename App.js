@@ -5,6 +5,8 @@ import UpdateName from './components/UpdateName';
 
 export default function App() {
   return(
-    <View style = {styles.container}></View>
+    <View style = {styles.container}>
+      <Text></Text>
+    </View>
   );
 }
