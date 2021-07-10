@@ -3,11 +3,12 @@ import { Text, View, StyleSheet, Button, TextInput } from 'react-native';
 
 export default function UpdateName() {
 
-   var updatedName = ""
+  //  var updatedName = ""
 
     const [name, updateName] = React.useState("Devansh");
 
     const[previousName, updatePreviousName] = React.useState("Not Updated Yet!")
+    
 
     const updatingName = (newName) => {
          updatedName = newName;
