@@ -20,6 +20,7 @@ export default function UpdateName() {
     const updateNameOnPress = () => {
         updatePreviousName(name);
         updateName(enteredName);
+        setEnteredName("");
     }
 
     return (
