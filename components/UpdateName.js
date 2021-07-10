@@ -13,7 +13,8 @@ export default function UpdateName() {
     
 
     const updatingName = (newName) => {
-         updatedName = newName;
+      setEnteredName(newName);
+      updatedName = newName;
     }
 
     const updateNameOnPress = () => {
