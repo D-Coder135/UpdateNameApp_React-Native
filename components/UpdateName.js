@@ -14,7 +14,7 @@ export default function UpdateName() {
 
     const updatingName = (newName) => {
       setEnteredName(newName);
-      updatedName = newName;
+      // updatedName = newName;
     }
 
     const updateNameOnPress = () => {
